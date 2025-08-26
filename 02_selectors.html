@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        .element h1{
+            color: blue;
+        }
+        .element p{
+            color: orangered;
+            font-weight: bold;
+        }
+        .clas{
+            color: red;
+        }
+        #ag{
+            color: blueviolet;
+        }
+        .universall *{
+            color: burlywood;
+        }
+        input[type="text"]{
+            background-color:yellow;
+        }    
+    </style>
+</head>
+<body>
+    <div class="element">
+        <h1>Agadeshwaran R</h1>
+        <p>CSE</p>
+    </div>
+    <hr>
+    <div class="clas">
+        <p>This is colored by calling class</p>
+    </div>
+    <hr>
+    <div class="ids">
+        <p id="ag">This is colored by calling id</p>
+    </div>
+    <hr>
+    <div class="universall">
+        <p>one</p>
+        <p>two</p>
+        <p>these are colored by calling universal</p>
+    </div>
+    <hr>
+    <div class="atri">
+        <input type="text">    
+        <input type="text">
+        <input type="numbers">
+        <p>this is colord by attribute</p>
+    </div>
+    <hr>
+
+</body>
+</html>
