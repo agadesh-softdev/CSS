@@ -1,0 +1,31 @@
+.t {
+  font-weight: bold;
+  list-style-position: center;
+}
+.aa {
+  color: blueviolet;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.te {
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+}
+.yu {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.font {
+  font-family: "Story Script", sans-serif;
+}
+.gy {
+  font-family: Fantasy;
+  font-size: 100px;
+  font-style: italic;
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
