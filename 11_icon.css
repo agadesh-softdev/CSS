@@ -1,0 +1,26 @@
+.gift:before {
+  content: "\1F381";
+  font-size: 40px;
+}
+.cake:before {
+  content: "\1F382";
+  font-size: 40px;
+}
+.ice:before {
+  content: "\1F368";
+  font-size: 40px;
+}
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gifts:before {
+  content: "\1F381";
+  font-family: "Arial";
+  font-size: 40px;
+}
+.giftss:before {
+  content: "\2699";
+  font-family: "FontAWesome";
+  font-size: 40px;
+}

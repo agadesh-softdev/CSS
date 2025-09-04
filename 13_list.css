@@ -1,0 +1,41 @@
+ul li {
+  list-style-type: disc;
+}
+ol li {
+  list-style-type: decimal;
+}
+.crt ol li {
+  list-style-type: lower-alpha;
+}
+.crt ul li {
+  list-style-type: circle;
+}
+p {
+  font-weight: bolder;
+}
+
+.gh ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+.gh ol {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+.gh ul li::before {
+  content: "►";
+  margin-right: 10px;
+}
+.gh ol li::before {
+  content: "►";
+  margin-right: 10px;
+}
+
+.passs ul {
+  list-style-image: url(./assets/bird.jfif);
+}
+.passs ol {
+  list-style-image:url(./assets/cat_img.webp);
+}
