@@ -1,0 +1,13 @@
+th,td,table{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th{
+    background-color: lightblue;
+}
+.alt tr:nth-child(odd){
+    background-color: lightcoral;
+}
+.specific #aga{
+    background-color: aquamarine;
+}
