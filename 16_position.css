@@ -1,0 +1,35 @@
+.static {
+  position: static;
+}
+.relative {
+  position: relative;
+  border: 1px solid green;
+  padding: 10px 10px 10px 250px;
+}
+.absolute .container {
+  position: relative;
+  margin: 00px 423px 0px 100px;
+}
+.absolute .container .element .pi {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: blue;
+  background-color: red;
+  padding: 5px 5px 5px 5px;
+  margin-top: -95px;
+  margin-left: 85px;
+  margin-right: px;
+  margin-bottom: 00px;
+}
+
+.sticky .container {
+  height: 200px;
+  background-color: bisque;
+  overflow-y: scroll;
+}
+.sticky .container .stable {
+  position: sticky;
+  background-color:lightgreen;
+  top:0;
+}
