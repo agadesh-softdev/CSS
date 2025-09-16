@@ -1,0 +1,18 @@
+.descendant p{
+    color:red;
+}
+.descendant h3{
+    color:red;
+}
+.child > p{
+    color:red;   
+}
+.adjacentSibling p + p{
+    color:red;
+}
+.generalSibling p ~ span{
+    color:red;
+}
+body > h1{
+    color:green;
+}
