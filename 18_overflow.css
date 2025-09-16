@@ -1,0 +1,33 @@
+.visible {
+    width:500px;
+    height:100px;
+    border:1px red solid;
+    overflow:visible;
+}
+.hidden {
+    width:500px;
+    height:100px;
+    border:1px red solid;
+    overflow:hidden;
+}
+.scroll {
+    width:500px;
+    height:100px;
+    border:1px red solid;
+    overflow:scroll;
+}
+.auto {
+    width:500px;
+    height:100px;
+    border:1px red solid;
+    overflow:auto;
+}
+.custom {
+    width:500px;
+    height:100px;
+    border:1px red solid;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+
