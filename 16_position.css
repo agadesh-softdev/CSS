@@ -33,3 +33,10 @@
   background-color:lightgreen;
   top:0;
 }
+.fixed{
+  height:400px;
+}
+.fixed .fix p{
+  position:fixed;
+  color:green;
+}
