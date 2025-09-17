@@ -1,0 +1,26 @@
+.hovers a:hover{
+    color:green;
+}
+.focus div{
+    border:4px black solid;
+    margin-left: 20px;
+    margin-right: 600px;
+    height: 30px;
+}
+.focus div:focus{
+    border-color:green;
+}
+
+.visited a:visited{
+    color:black;
+}
+.elements .firstletter ::first-letter{
+    color:red;
+    font-weight: bold;
+}
+.beforee ol li::before{
+    content: "►";
+}
+.beforee ol li{
+    list-style-type: none;
+}
