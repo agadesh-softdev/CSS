@@ -5,11 +5,11 @@
   display: inline-block;
   border: 5px green dashed;
 }
-.block{
-    display:block;
-    border: 5px green dashed;
+.block {
+  display: block;
+  border: 5px green dashed;
 }
-.flex{
-    display: flex;
-    border: 5px green dashed;
+.flex {
+  display: flex;
+  border: 5px green dashed;
 }

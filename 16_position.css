@@ -30,13 +30,13 @@
 }
 .sticky .container .stable {
   position: sticky;
-  background-color:lightgreen;
-  top:0;
+  background-color: lightgreen;
+  top: 0;
 }
-.fixed{
-  height:400px;
+.fixed {
+  height: 400px;
 }
-.fixed .fix p{
-  position:fixed;
-  color:green;
+.fixed .fix p {
+  position: fixed;
+  color: green;
 }

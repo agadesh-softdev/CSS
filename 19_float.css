@@ -1,29 +1,29 @@
-.orange{
-    background-color: orange;
-    width: 100px;
-    height:100px;
-    float:left;
-    margin-left: 20px;
+.orange {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
 }
-.green{
-    background-color: green;
-    width: 100px;
-    height:100px;
-    float:right;
-    margin-right:20px;
+.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 20px;
 }
-.float2 .oranged{
-    background-color: orange;
-    width: 100px;
-    height:100px;
-    float:left;
-    margin-top: 200px;
+.float2 .oranged {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 200px;
 }
-.float2 .greened{
-    background-color: green;
-    width: 100px;
-    height:100px;
-    float:left;
-    margin-top: 200px;
-    margin-left: 250px;
+.float2 .greened {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 200px;
+  margin-left: 250px;
 }

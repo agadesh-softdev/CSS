@@ -35,9 +35,9 @@ p {
 
 .passs ul {
   list-style-image: url(./assets/bird.jfif);
-  margin-left:250px;
+  margin-left: 250px;
 }
 .passs ol {
-  list-style-image:url(./assets/cat_img.webp);
+  list-style-image: url(./assets/cat_img.webp);
   margin-left: 250px;
 }
