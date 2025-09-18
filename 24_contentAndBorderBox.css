@@ -1,0 +1,21 @@
+.box .a {
+  border: red 2px solid;
+  height: 100px;
+}
+.box .b {
+  border: red 2px solid;
+  height: 100px;
+  padding: 20px;
+}
+.aa {
+  border: red 2px solid;
+  height: 100px;
+  box-sizing: content-box;
+}
+.bb {
+  border: red 2px solid;
+  height: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}

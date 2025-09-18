@@ -1,0 +1,14 @@
+.opacity .colors {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  opacity: 0.5;
+}
+.opacity .text p {
+  font-weight: bolder;
+  color: blue;
+  opacity: 0.5;
+}
+.opacity .images {
+  opacity: 0.5;
+}

@@ -1,0 +1,23 @@
+.navbar ul li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 50px;
+  color: black;
+}
+.navbar ul li:hover {
+  background-color: beige;
+  border-radius: 10px;
+}
+.navbar ul li a:active {
+  color: black;
+}
+.navbar ul li:active {
+  background-color: salmon;
+}
