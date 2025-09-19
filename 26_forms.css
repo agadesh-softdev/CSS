@@ -1,0 +1,28 @@
+.container {
+  background-color: whitesmoke;
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.container input {
+  width: 100%;
+  padding:10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+.container input:hover {
+  border: 2px solid black;
+}
+.container button {
+  border-radius: 0px;
+  color: white;
+  background-color: lightgreen;
+  border: 1px lightgreen;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.container button:hover {
+  opacity: 0.5;
+}
