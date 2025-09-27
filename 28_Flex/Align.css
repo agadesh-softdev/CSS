@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  height: 200px;
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+.orange {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+}
+.one {
+  align-items: center;
+}
+.two {
+  align-items: flex-end;
+}
+.three {
+  align-items: flex-start;
+}
+.onee {
+  align-content: flex-start;
+}
+.twoo {
+  align-content: center;
+}
+.threee {
+  align-content: flex-end;
+}
+.contain {
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Add this line */
+    height: 200px;
+    border: 1px solid black;
+  }
+}
+.containers {
+  display: flex;
+  height: 300px;
+  border: 1px solid black;
+}
+.ones .blue {
+  align-self: self-end;
+}
+.twoes .green {
+  align-self: center;
+}
+.threes .green{
+  align-self: center;
+}
+.threes .yellow{
+  align-self: flex-end;
+}
