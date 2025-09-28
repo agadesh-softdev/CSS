@@ -1,0 +1,54 @@
+body {
+  background-color: beige;
+}
+h2 {
+  text-align: center;
+  color: brown;
+}
+.repeat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*1fr 200px auto*/
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.repeat .para {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
+.minmax {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr) minmax(
+      150px,
+      1fr
+    );
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.minmax .para {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
+.autofit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.autofit .para {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
+.autofill {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.autofill .para {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
