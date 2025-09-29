@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 5px;
+  grid-template-areas:
+    "h h h "
+    "sb1 m sb2"
+    "f f f";
+  height: 100vh;
+}
+.container div {
+  display: flex;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: blueviolet;
+  color:white;
+}
+.header {
+  grid-area: h;
+}
+.sideone {
+  grid-area: sb1;
+}
+.sidetwo {
+  grid-area: sb2;
+}
+.footer {
+  grid-area: f;
+}
+.main {
+  grid-area: m;
+}
