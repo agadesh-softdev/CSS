@@ -4,41 +4,35 @@
   box-sizing: border-box;
 }
 body {
+  display: flex;
   height: 100vh;
-  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
 }
-
 .container {
-  display: flex;
   background-color: lightsteelblue;
-  width: 400px;
+  width: 300px;
+  margin: auto;
   padding: 20px;
-  flex-direction: column;
-  justify-content: center;
   border-radius: 10px;
-  width:300px;
 }
-
 .container input {
   width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
   border-style: double;
-}
-.container input:hover {
-  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
 }
 .container button {
-  border-radius: 5px;
-  color: white;
-  background-color: blueviolet;
-  border: 1px blueviolet;
+  margin-top: 5px;
   width: 100%;
+  background-color: blueviolet;
+  color: white;
   padding: 10px;
-  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+}
+.container input {
+  margin-bottom: 10px;
 }
 .container button:hover {
   opacity: 0.4;
@@ -47,5 +41,5 @@ body {
 footer {
   padding-top: 10px;
   text-align: center;
-  font-size: smaller;
+  font-size: small;
 }
