@@ -1,0 +1,19 @@
+     .element h1 {
+        color: blue;
+      }
+      .element p {
+        color: orangered;
+        font-weight: bold;
+      }
+      .clas {
+        color: red;
+      }
+      #ag {
+        color: blueviolet;
+      }
+      .universall * {
+        color: burlywood;
+      }
+      input[type="text"] {
+        background-color: yellow;
+      }
