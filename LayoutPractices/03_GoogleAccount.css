@@ -21,7 +21,7 @@
   border: 1px solid black;
   background-color: lightsalmon;
 }
-.sidebar {
+.navbar {
   display: flex;
   grid-area: sidebar;
   justify-content: center;
@@ -58,7 +58,7 @@ footer {
     display: grid;
     height: 150vh;
     grid-template-columns: auto;
-    grid-template-rows: 1fr 3fr 3fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr 3fr 0.8fr 0.8fr;
     grid-template-areas:
       "h"
       "sidebar"
