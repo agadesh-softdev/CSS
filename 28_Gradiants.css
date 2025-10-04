@@ -1,0 +1,84 @@
+.heading {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+}
+.linear-gradiant .bg {
+  background: linear-gradient(to right, red, blue);
+  font-size: 60px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.linear-gradiant .name {
+  font-size: 60px;
+  text-align: center;
+  background: linear-gradient(to right, red, blue);
+  background-clip: text; /* Firefox */
+  -webkit-background-clip: text; /* Chrome / Safari */
+  color: transparent; /* fallback */
+  -webkit-text-fill-color: transparent; /* Chrome / Safari */
+}
+.center {
+  text-transform: uppercase;
+  text-align: center;
+}
+/* -------------------------------------------------------------------------- */
+.radial-gradient {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.circle,
+.ellipse {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+.radial-gradient .circle.closest-corner {
+  background: radial-gradient(circle closest-corner, red, black);
+}
+
+.radial-gradient .circle.closest-side {
+  background: radial-gradient(circle closest-side, red, black);
+}
+
+.radial-gradient .circle.farthest-corner {
+  background: radial-gradient(circle farthest-corner, red, black);
+}
+
+.radial-gradient .circle.farthest-side {
+  background: radial-gradient(circle farthest-side, red, black);
+}
+
+.radial-gradient .ellipse.closest-corner {
+  background: radial-gradient(ellipse closest-corner, red, black);
+}
+
+.radial-gradient .ellipse.closest-side {
+  background: radial-gradient(ellipse closest-side, red, black);
+}
+
+.radial-gradient .ellipse.farthest-corner {
+  background: radial-gradient(ellipse farthest-corner, red, black);
+}
+
+.radial-gradient .ellipse.farthest-side {
+  background: radial-gradient(ellipse farthest-side, red, black);
+}
+
+/* ------------------------------------------------------------------------ */
+.conic-grading {
+  height: 200px;
+  width: 200px;
+  background: conic-gradient(red, green, blue, yellow);
+  border-radius: 50%;
+  margin: auto;
+}
