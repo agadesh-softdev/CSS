@@ -11,14 +11,15 @@ body {
   align-content: center;
   gap: 20px;
 }
-.box,.box2{
+.box,
+.box2 {
   background-color: white;
   width: 200px;
   height: 200px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
   margin-bottom: 100px;
-  margin:auto;
+  margin: auto;
 }
 .box p,
 .box2 p {
