@@ -1,0 +1,55 @@
+.rotate {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+  margin: auto;
+  margin-top: 50px;
+  border: 10px solid black;
+}
+.translate {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  transform: translate(20px, 40px);
+  border: 10px solid black;
+}
+.heading {
+  text-transform: uppercase;
+  text-align: center;
+  color: red;
+}
+.scale {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  transform: scale(0.5);
+  border: 10px solid black;
+  margin: auto;
+}
+.skew {
+  background-color: brown;
+  width: 100px;
+  border: 10px solid black;
+  margin: auto;
+  height: 100px;
+  transform: skew(20deg, 30deg);
+}
+.rotatex {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  transform: rotatex(80deg);
+  margin: auto;
+  margin-top: 50px;
+  border: 10px solid black;
+}
+.rotatey {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  transform: rotatey(80deg);
+  margin: auto;
+  margin-top: 50px;
+  border: 10px solid black;
+}
