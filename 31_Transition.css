@@ -1,0 +1,202 @@
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  transition-property: all;
+  transition-duration: 1s;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  border: 5px solid black;
+}
+.one:hover {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+.head {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 1.5s;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  border: 5px solid black;
+}
+.two:hover {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+.heads {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+}
+.linear,
+.ease,
+.ease-in,
+.ease-out,
+.ease-in-out,
+.steps,
+.cubic-brazier {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text {
+  margin-top: 80px;
+  font-weight: bolder;
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  transition-property: background-color, transform;
+  transition-duration: 7s;
+  transition-timing-function: linear;
+  border: 5px solid black;
+}
+.three:hover {
+  background-color: red;
+  transform: translate(100px);
+}
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  transition-property: background-color, transform;
+  transition-duration: 7s;
+  transition-timing-function: ease;
+  border: 5px solid black;
+}
+.four:hover {
+  background-color: red;
+  transform: translate(140px);
+}
+.five {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  transition-property: background-color, transform;
+  transition-duration: 7s;
+  transition-timing-function: ease-in;
+  border: 5px solid black;
+}
+.five:hover {
+  background-color: red;
+  transform: translate(140px);
+}
+.six {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  transition-property: background-color, transform;
+  transition-duration: 7s;
+  transition-timing-function: ease-out;
+  border: 5px solid black;
+}
+.six:hover {
+  background-color: red;
+  transform: translate(140px);
+}
+.seven {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  transition-property: background-color, transform;
+  transition-duration: 7s;
+  transition-timing-function: ease-in-out;
+  border: 5px solid black;
+}
+.seven:hover {
+  background-color: red;
+  transform: translate(140px);
+}
+.eight {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  transition-property: background-color, transform;
+  transition-duration: 7s;
+  transition-timing-function: steps(8);
+  border: 5px solid black;
+}
+.eight:hover {
+  background-color: red;
+  transform: translate(140px);
+}
+.nine {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  transition-property: background-color, transform;
+  transition-duration: 7s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  border: 5px solid black;
+}
+.nine:hover {
+  background-color: red;
+  transform: translate(140px);
+}
