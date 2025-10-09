@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.topic {
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+}
+
+body{
+    height:110vh;
+}
+@keyframes colors {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+.box1 .one {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  animation-name: colors;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin-left: 50%;
+}
+
+@keyframes TransformAndColor {
+  0% {
+    transform: translate(0, 0);
+    background-color: red;
+  }
+  25% {
+    transform: translate(200px, 0);
+    background-color: blue;
+  }
+  50% {
+    transform: translate(200px, 100px);
+    background-color: brown;
+  }
+  75% {
+    transform: translate(0, 100px);
+    background-color: green;
+  }
+  100% {
+    transform: translate(0, 0);
+    background-color: yellow;
+  }
+}
+
+.box2 .two {
+  width: 100px;
+  height: 100px;
+  margin-left: 35%;
+  margin-top: 30px;
+  animation-name: TransformAndColor;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Transforms {
+  0% {
+    transform: translateY(100px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100%{
+    transform: translateY(100px);
+  }
+}
+
+.box3 .three {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 50%;
+  background-color: blue;
+  animation-name: Transforms;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
