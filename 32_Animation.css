@@ -8,8 +8,8 @@
   margin-top: 20px;
 }
 
-body{
-    height:110vh;
+body {
+  height: 110vh;
 }
 @keyframes colors {
   0% {
@@ -31,6 +31,7 @@ body{
   animation-duration: 4s;
   animation-iteration-count: infinite;
   margin-left: 50%;
+  border: 8px solid black;
 }
 
 @keyframes TransformAndColor {
@@ -64,6 +65,7 @@ body{
   animation-name: TransformAndColor;
   animation-duration: 8s;
   animation-iteration-count: infinite;
+  border: 8px solid black;
 }
 
 @keyframes Transforms {
@@ -73,7 +75,7 @@ body{
   50% {
     transform: translate(0);
   }
-  100%{
+  100% {
     transform: translateY(100px);
   }
 }
@@ -88,4 +90,5 @@ body{
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border: 8px solid black;
 }
