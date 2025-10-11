@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.name .user-name {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #0a0363;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px black;
+}
+body {
+  background: linear-gradient(to right, #ece4f2, #0a0363);
+  margin-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  gap: 25px;
+  font-size: 1rem;
+}
+
+.links .linked a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: large;
+  background-color: #ece4f2;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.links .linked a:hover {
+  opacity: 0.5;
+}
+
+.links .link a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  font-size: large;
+}
+
+.links .link:hover {
+  text-decoration: underline;
+}
+
+.main .main-image img {
+  margin-top: -50px;
+  height: 350px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+.main .text span {
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.main .text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.main {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.text .one,
+.text .two {
+  line-height: 3rem;
+}
+
+.socialicon {
+  display: flex;
+  justify-content: start;
+}
+.socialicon i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 2px white solid;
+  margin: 10px;
+  transition: 0.2s linear;
+}
+
+.socialicon i:hover {
+  border: 2.5px black solid;
+}
+
+.download p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  text-align: start;
+  background-color: black;
+  width: 130px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2.5px solid white;
+}
+
+.download p:hover{
+  background-color: white;
+  color:black;
+  border:2.5px solid black;
+  cursor:default;
+  box-shadow: 4px 4px 4px 4px grey;
+}
