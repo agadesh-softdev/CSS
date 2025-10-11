@@ -50,7 +50,7 @@ body {
 }
 
 .links .link:hover {
-  text-decoration: underline;
+  text-decoration: underline white;
 }
 
 .main .main-image img {
@@ -77,6 +77,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 100px;
+}
+
+.text {
+  margin-top: -50px;
 }
 
 .text .one,
@@ -120,10 +124,10 @@ body {
   border: 2.5px solid white;
 }
 
-.download p:hover{
+.download p:hover {
   background-color: white;
-  color:black;
-  border:2.5px solid black;
-  cursor:default;
-  box-shadow: 4px 4px 4px 4px grey;
+  color: black;
+  border: 2.5px solid black;
+  cursor: default;
+  box-shadow: 0px 0px 4px 4px grey;
 }
