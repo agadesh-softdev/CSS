@@ -33,6 +33,13 @@
   background-color: lightgreen;
   top: 0;
 }
+
+.stables {
+  position: sticky;
+  background-color: lightgreen;
+  top: 1;
+}
+
 .fixed {
   height: 400px;
 }
