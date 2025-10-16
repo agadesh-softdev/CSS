@@ -5,10 +5,14 @@
 }
 
 body {
-  height: 60vh;
+  height: 100vh;
   background-image: url(..//assets/bg-img2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: poppins;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-y: hidden;
 }
 .box {
   border: 1px solid white;
@@ -32,7 +36,15 @@ body {
   font-size: 22px;
   color: black;
   font-weight: bold;
+  font-family: poppins;
 }
+
+.nav a:hover,
+.nav i:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
 .nav {
   display: flex;
   justify-content: space-evenly;
@@ -58,6 +70,11 @@ body {
   width: 30%;
   margin: -55px 30px;
 }
+
+.search input:hover {
+  border-bottom: 3.5px solid white;
+}
+
 .box2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -69,8 +86,10 @@ body {
   width: 350px;
   height: 400px;
   box-shadow: rgba(240, 237, 237, 0.35) 0px 0px 15px 10px;
-  margin-left: 15%;
+  font-family: poppins;
   border-radius: 10px;
+  order: 2;
+  margin-left: 15%;
 }
 .wel-pg {
   border: 5px solid white;
@@ -78,6 +97,8 @@ body {
   height: 400px;
   box-shadow: rgba(240, 237, 237, 0.35) 0px 0px 15px 10px;
   border-radius: 10px;
+  margin-left: 15%;
+  order: 1;
 }
 .contact {
   background-color: white;
@@ -88,24 +109,18 @@ body {
   margin-bottom: 0;
   place-items: center;
   float: right;
-  margin: -237px 0px 50px 0px;
+  margin: -245px 0px 0px 0px;
   border-top-left-radius: 20px;
 }
 .contact a {
   color: black;
   font-size: 29px;
-  transform: rotate(45deg);
   border: 2px solid transparent;
 }
 
-.contact a i {
-  transform: rotate(-45deg);
-  padding: 3px;
-}
-
 .contact a:hover {
-  border: 2px solid black;
-  transition: 0.8s ease;
+  transform: scale(1.2);
+  transition: 0.3s ease;
 }
 
 .heading {
@@ -138,13 +153,115 @@ body {
   margin-top: 5%;
   margin-left: 5%;
 }
-.login-btn{
+.login-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 35%;
-  margin-top: 10%;
-  width:90px;
-  height:30px;
+  margin-top: 5%;
+  width: 90px;
+  height: 30px;
   border-radius: 10px;
+  background-color: white;
+  box-shadow: rgb(253, 254, 254) 0px 2px 4px 0px,
+    rgba(253, 254, 254, 0.32) 0px 2px 16px 0px;
+  font-weight: 700;
+}
+
+.headings {
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.wel-line {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 35px;
+  word-spacing: 8px;
+  margin: 0px 15px;
+}
+.wel-btn {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+  margin-top: 5%;
+}
+.wel-btn button {
+  width: 120px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgb(253, 254, 254) 0px 2px 4px 0px,
+    rgba(253, 254, 254, 0.32) 0px 2px 16px 0px;
+  font-weight: 700;
+}
+.wel-btn button:hover,
+.login-btn:hover {
+  transform: scale(1.05);
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+@media (max-width: 768px) {
+
+  body{
+    overflow-y: scroll;
+  }
+
+  .container {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 1200px;
+  }
+
+  .box {
+    width: 95%;
+    height: auto;
+  }
+
+  .nav {
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .search input,
+  .search i {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+  }
+
+  .box2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .login,
+  .wel-pg {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .contact {
+    position: static;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: none;
+    margin: 20px 0;
+    border-radius: 0;
+    justify-content: center;
+  }
+
+  .contact a {
+    font-size: 24px;
+  }
 }
