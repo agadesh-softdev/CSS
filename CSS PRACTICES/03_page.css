@@ -204,15 +204,14 @@ body {
   transition: 0.3s ease;
 }
 @media (max-width: 768px) {
-
-  body{
+  body {
     overflow-y: scroll;
   }
 
   .container {
     margin-top: 10px;
     margin-left: 10px;
-    height: 1200px;
+    height: 1000px;
   }
 
   .box {
@@ -234,6 +233,7 @@ body {
     margin: 10px auto;
     width: 80%;
     text-align: center;
+    display: none;
   }
 
   .box2 {
@@ -243,11 +243,18 @@ body {
     padding: 20px;
   }
 
-  .login,
   .wel-pg {
     width: 90%;
     margin: 0 auto;
     height: auto;
+    height: 400px;
+  }
+
+  .login {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    height: 450px;
   }
 
   .contact {
@@ -262,6 +269,14 @@ body {
   }
 
   .contact a {
-    font-size: 24px;
+    font-size: 25px;
+  }
+
+  .contact{
+    height: 50px;
+    width: 460px;
+    margin-right: 50px;
+    margin-top: 400px;
+    border-radius: 20px;
   }
 }
