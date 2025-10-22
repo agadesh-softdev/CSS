@@ -108,6 +108,7 @@
   gap: 20px;
 }
 .nav ul li {
+  flex: 0 0 auto;
   font-size: 1.1rem;
   border: 1px solid black;
   padding: 5px;
@@ -203,7 +204,7 @@
     display: flex;
     font-size: 20px;
     margin-top: -82px;
-    margin-left: 240px;
+    margin-left: 335%;
   }
   .search .mic,
   .profile .user,
@@ -229,7 +230,7 @@
   }
   .nav ul li {
     flex: 0 0 auto;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     border: 1px solid black;
     padding: 5px 10px;
     border-radius: 15px;
@@ -258,13 +259,15 @@
   }
   .sidebar .bar {
     display: none;
+    width:100%;
+    margin-left: -20px;
   }
   .sidebar {
     display: flex;
-    justify-content: space-between;
-    gap:55px;
+    justify-content: space-evenly;
     flex-direction: row;
-    margin-left: 30px;
+    bottom: -73%;
+    margin-left: 10%;
   }
   .sidebar .plus {
     display: inline-flex;
