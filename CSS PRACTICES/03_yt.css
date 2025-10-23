@@ -259,15 +259,17 @@
   }
   .sidebar .bar {
     display: none;
-    width:100%;
     margin-left: -20px;
+  }
+  .sidebar i{
+    font-size: 1.7rem;
   }
   .sidebar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
-    bottom: -73%;
-    margin-left: 10%;
+    bottom: -72%;
+    width: 100%;
   }
   .sidebar .plus {
     display: inline-flex;
