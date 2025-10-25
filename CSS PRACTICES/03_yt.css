@@ -6,7 +6,7 @@
 :root {
   --bgcolor: #f2f2f2;
 }
-body{
+body {
   overflow-x: hidden;
 }
 .top-bar {
@@ -224,6 +224,11 @@ body{
     margin-left: 5%;
     width: 92%;
     overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .nav::-webkit-scrollbar {
+    display: none;
   }
   .nav ul {
     display: inline-flex;
@@ -264,7 +269,7 @@ body{
     display: none;
     margin-left: -20px;
   }
-  .sidebar i{
+  .sidebar i {
     font-size: 1.7rem;
   }
   .sidebar {
