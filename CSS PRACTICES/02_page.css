@@ -152,6 +152,10 @@ body {
   font-size: 1.3rem;
   margin-top: 5%;
   margin-left: 5%;
+  cursor: default;
+}
+.line3:hover {
+  text-decoration: underline;
 }
 .login-btn {
   display: flex;
@@ -272,7 +276,7 @@ body {
     font-size: 25px;
   }
 
-  .contact{
+  .contact {
     height: 50px;
     width: 460px;
     margin-right: 50px;
