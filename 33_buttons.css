@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.button {
+  display: grid;
+  justify-content: center;
+  gap: 80px;
+}
+.one {
+  margin-top: 100px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(64, 64, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: white;
+  box-shadow: 3px 3px 0px 1px grey;
+}
+.one:hover,
+.two:hover,
+.three:hover {
+  scale: 0.95;
+  opacity: 0.8;
+}
+
+.two {
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(161, 11, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: white;
+  box-shadow: 3px 3px 0px 1px grey;
+}
+.three {
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(233, 102, 10);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  box-shadow: 3px 3px 0px 1px grey;
+}
