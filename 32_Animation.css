@@ -7,7 +7,6 @@
   color: red;
   margin-top: 20px;
 }
-
 body {
   height: 110vh;
 }
@@ -22,7 +21,6 @@ body {
     background-color: yellow;
   }
 }
-
 .box1 .one {
   margin-top: 30px;
   width: 100px;
@@ -33,7 +31,6 @@ body {
   margin-left: 50%;
   border: 8px solid black;
 }
-
 @keyframes TransformAndColor {
   0% {
     transform: translate(0, 0);
@@ -56,7 +53,6 @@ body {
     background-color: yellow;
   }
 }
-
 .box2 .two {
   width: 100px;
   height: 100px;
@@ -67,7 +63,6 @@ body {
   animation-iteration-count: infinite;
   border: 8px solid black;
 }
-
 @keyframes Transforms {
   0% {
     transform: translateY(100px);
@@ -79,7 +74,6 @@ body {
     transform: translateY(100px);
   }
 }
-
 .box3 .three {
   width: 100px;
   height: 100px;
