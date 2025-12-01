@@ -29,6 +29,6 @@
   font-size: 100px;
   font-style: italic;
   background: linear-gradient(to right, red, blue);
-  -webkit-background-clip:text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
