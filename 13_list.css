@@ -13,7 +13,6 @@ ol li {
 p {
   font-weight: bolder;
 }
-
 .gh ul {
   list-style-type: none;
   padding-left: 0;
@@ -32,7 +31,6 @@ p {
   content: "►";
   margin-right: 10px;
 }
-
 .passs ul {
   list-style-image: url(./assets/bird.jfif);
   margin-left: 250px;
